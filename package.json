@@ -1,0 +1,17 @@
+{
+    "name": "boilerplate",
+    "scripts": {
+        "tailwind": "npx @tailwindcss/cli -i ./static/src/input.css -o ./static/dist/main.css --watch"
+    },
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.1.8",
+        "daisyui": "^5.0.43",
+        "tailwindcss": "^4.1.8"
+    }
+}
