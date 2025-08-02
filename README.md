@@ -13,7 +13,7 @@
 
 4. Run the project 
 
-```uv run app.py```
+```uv run main.py```
 
 5. Start tailwind compiler
 
