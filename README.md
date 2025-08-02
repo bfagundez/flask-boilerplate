@@ -6,15 +6,15 @@
 
 2. Install JS dependencies
 
-```npm install``
+```npm install```
 
 3. Install Python dependencies
 
-```poetry install```
+```uv sync```
 
 4. Run the project 
 
-```poetry run python app.py```
+```uv run app.py```
 
 5. Start tailwind compiler
 

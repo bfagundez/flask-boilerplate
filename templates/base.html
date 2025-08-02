@@ -8,10 +8,31 @@
     <link rel="stylesheet" href="{{url_for('static', filename='dist/main.css')}}">
     <script type="text/javascript" src="{{url_for('static', filename='dist/htmx.min.js')}}"></script>
 
-    <title>Element</title>
+    <title>Flask boilerplate</title>
   </head>
   <body>
-    {% block content %}
-    {% endblock content %}
+    <div class="navbar bg-base-100 shadow-sm">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl">Flask boilerplate</a>
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Link</a></li>
+          <li>
+            <details>
+              <summary>Parent</summary>
+              <ul class="bg-base-100 rounded-t-none p-2">
+                <li><a>Link 1</a></li>
+                <li><a>Link 2</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container mx-auto">
+      {% block content %}
+      {% endblock content %}
+    </div>
   </body>
 </html>

@@ -1,19 +1,9 @@
 [project]
-name = "boilerplate-flask-tailwindcss-htmx"
+name = "flask-boilerplate"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "Bruno Fagundez",email = "bfagundez@gmail.com"}
-]
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9,<4.0"
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
-package-mode = false
-
-[tool.poetry.dependencies]
-flask = "^3.1.1"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.1",
+]
