@@ -1,7 +1,6 @@
 # Boilerplate for quick project setup
 
 ## Usage
-
 1. Clone the repository
 
 2. Install JS dependencies
